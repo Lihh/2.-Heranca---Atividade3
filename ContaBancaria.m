@@ -10,12 +10,13 @@
 
 @implementation ContaBancaria
 
--(ContaBancaria *) initWithAgencia:(short)ag andConta:(long)c
+-(ContaBancaria *) initWithAgencia:(short)ag andConta:(long)c andSaldo:(float)s
 {
     self = [super init];
     if (self){
         agencia = ag;
         conta = c;
+        saldo = s;
     }
     return self;
 }
@@ -38,6 +39,7 @@
 
 -(float) getSaldo
 {
+    NSLog(@"Seu saldo e de: %f", saldo);
     return saldo;
 }
 

@@ -10,20 +10,21 @@
 
 @implementation ContaPoupanca
 
--(ContaPoupanca *) initWithAgencia:(short)ag andConta:(long)c andAniversario:(Byte)an
+-(ContaPoupanca *) initWithAgencia:(short)ag andConta:(long)c andAniversario:(Byte)an andSaldo:(float)s
 {
     self = [super init];
     if (self){
         agencia = ag;
         conta = c;
         aniversario = an;
+        saldo = s;
     }
     return self;
 }
 
 -(float) rendimento: (float)taxa
 {
-    taxa = saldo * 1.005;
+    saldo = saldo * (1 + taxa);
     NSLog(@"A taxa de rendimento e de: %f", taxa);
     return saldo;
 }

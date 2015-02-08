@@ -14,8 +14,8 @@
     float limite;
 }
 
--(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c;
--(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c andLimite:(float)l;
+-(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c andSaldo:(float)s;
+-(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c andLimite:(float)l andSaldo:(float)s;
 
 -(float) saque: (float)valor;
 -(float) getLimite;

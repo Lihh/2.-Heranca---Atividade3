@@ -14,7 +14,7 @@
     Byte aniversario;
 }
 
--(ContaPoupanca *) initWithAgencia:(short)ag andConta:(long)c andAniversario:(Byte)an;
+-(ContaPoupanca *) initWithAgencia:(short)ag andConta:(long)c andAniversario:(Byte)an andSaldo:(float)s;
 
 -(float) rendimento: (float)taxa;
 -(float) saque: (float)valor;

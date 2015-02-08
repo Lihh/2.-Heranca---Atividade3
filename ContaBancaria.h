@@ -15,7 +15,7 @@
     float saldo;
 }
 
--(ContaBancaria *) initWithAgencia:(short)ag andConta:(long)c;
+-(ContaBancaria *) initWithAgencia:(short)ag andConta:(long)c andSaldo:(float)s;
 
 -(float) deposito: (float)valor;
 -(float) saque: (float)valor;

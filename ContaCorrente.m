@@ -10,24 +10,26 @@
 
 @implementation ContaCorrente
 
--(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c
+-(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c andSaldo:(float)s
 {
     self = [super init];
     if (self) {
         agencia = ag;
         conta = c;
+        saldo = s;
     }
     return self;
 }
 
 
--(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c andLimite:(float)l
+-(ContaCorrente *) initWithAgencia:(short)ag andConta:(long)c andLimite:(float)l andSaldo:(float)s
 {
     self = [super init];
     if (self ) {
         agencia = ag;
         conta = c;
         limite = l;
+        saldo = s;
     }
     return self;
 }
