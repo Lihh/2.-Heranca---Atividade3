@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		02A6292E1A86559400201AB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A6292D1A86559400201AB6 /* main.m */; };
+		02A629361A8655C400201AB6 /* ContaBancaria.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A629351A8655C400201AB6 /* ContaBancaria.m */; };
+		02A629391A8655D400201AB6 /* ContaCorrente.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A629381A8655D400201AB6 /* ContaCorrente.m */; };
+		02A6293C1A8655E100201AB6 /* ContaPoupanca.m in Sources */ = {isa = PBXBuildFile; fileRef = 02A6293B1A8655E100201AB6 /* ContaPoupanca.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		02A6292A1A86559400201AB6 /* Atividade3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Atividade3; sourceTree = BUILT_PRODUCTS_DIR; };
 		02A6292D1A86559400201AB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02A629341A8655C400201AB6 /* ContaBancaria.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContaBancaria.h; sourceTree = "<group>"; };
+		02A629351A8655C400201AB6 /* ContaBancaria.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContaBancaria.m; sourceTree = "<group>"; };
+		02A629371A8655D400201AB6 /* ContaCorrente.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContaCorrente.h; sourceTree = "<group>"; };
+		02A629381A8655D400201AB6 /* ContaCorrente.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContaCorrente.m; sourceTree = "<group>"; };
+		02A6293A1A8655E100201AB6 /* ContaPoupanca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContaPoupanca.h; sourceTree = "<group>"; };
+		02A6293B1A8655E100201AB6 /* ContaPoupanca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContaPoupanca.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +50,12 @@
 		02A629211A86559400201AB6 = {
 			isa = PBXGroup;
 			children = (
+				02A6293A1A8655E100201AB6 /* ContaPoupanca.h */,
+				02A6293B1A8655E100201AB6 /* ContaPoupanca.m */,
+				02A629371A8655D400201AB6 /* ContaCorrente.h */,
+				02A629381A8655D400201AB6 /* ContaCorrente.m */,
+				02A629341A8655C400201AB6 /* ContaBancaria.h */,
+				02A629351A8655C400201AB6 /* ContaBancaria.m */,
 				02A6292C1A86559400201AB6 /* Atividade3 */,
 				02A6292B1A86559400201AB6 /* Products */,
 			);
@@ -118,6 +133,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A629391A8655D400201AB6 /* ContaCorrente.m in Sources */,
+				02A629361A8655C400201AB6 /* ContaBancaria.m in Sources */,
+				02A6293C1A8655E100201AB6 /* ContaPoupanca.m in Sources */,
 				02A6292E1A86559400201AB6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
