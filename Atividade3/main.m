@@ -24,7 +24,6 @@ int main(int argc, const char * argv[]) {
         [cp getAniversario];
         [cp mostraSituacao];
         
-        [cp getSaldo];
         [cc saque:50];
         [cc getLimite];
         [cc deposito:60];
